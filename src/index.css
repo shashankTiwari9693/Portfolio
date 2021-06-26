@@ -1,0 +1,202 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+Body{
+ background-color:#03071F;
+
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.card{
+ 
+  transition: all cubic-bezier(0.175, 0.885,0,1);
+  margin-top: 70px;
+  padding: 50px ;
+  margin-left: 40%;
+  height:450px;
+  width: 310px;
+    background-color: #130f40;
+  background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+  border-radius: 15px;
+  box-shadow: 14px 18px 14px -4px rgba(0,0,0,0.4);
+  -webkit-box-shadow: 14px 18px 14px -4px rgba(0,0,0,0.4);
+  -moz-box-shadow: 14px 18px 14px -4px rgba(0,0,0,0.4);
+  float: left;
+ 
+
+
+  
+}
+.card:hover{
+  box-shadow:0px 30px 18px -8px rgba(0,0,0,0.3);
+  transform: scale(1.05,1.05);
+}
+
+.heading{
+  height:100px;
+  width: 310px;
+  background-color: #2d3436;
+background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+  
+  margin-top: -50px;
+  margin-left: -50px;
+  border-radius: 15px 15px 0px 0px;
+  
+
+
+}
+.profile{
+
+  margin-top:-35%;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: flex;
+}
+
+img.profile {
+  margin-left:15%;
+}
+
+.name{
+  
+  color: aliceblue;
+  margin-top: 10px;
+  
+  font-family: 'Patrick Hand', cursive;
+  font-size: 30px;
+}
+.icon{
+  margin-top: 40px;
+  
+  margin-left: -90px;
+}
+
+ .icon a{
+   font-size: larger;
+  text-decoration: none;
+  color:whitesmoke;
+}
+.icon li{
+  padding-right: 45px;
+}
+
+ .icon ul{
+   margin-left: 75px;
+  font-size:large;
+  size: 15px;
+  list-style: none;
+  display: flex;
+  align-items: center;  
+}
+
+.icon .fb:hover{
+  color:navy;
+}
+.icon .whats:hover{
+  color: #43d854;
+}
+.icon .linkd:hover{
+  color:#2867B2;
+}
+.icon .git:hover{
+  color:red;
+}
+h3{
+  word-spacing: 2px;
+  font-family: 'Patrick Hand', cursive;
+  margin-top: 30px;
+  margin-left:23px ;
+  color: aliceblue;
+  font-size:15px;
+}
+
+.button{
+  margin-top:17% ;
+margin-left: 27%;
+background-color: #e84393;
+background-image: linear-gradient(315deg, #e84393 0%, #000000 74%);
+  border: none;
+  font-family: 'Patrick Hand', cursive;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+  body {
+   background-color:#111320;
+  }
+  .card{
+ 
+    transition: all cubic-bezier(0.175, 0.885,0,1);
+    margin-top: 120px;
+    padding: 50px ;
+    margin-left: 7%;
+    height:450px;
+    width: 310px;
+      
+    float: left;
+   
+  }
+  .icon{
+    margin-top: 40px;
+    
+    margin-left: -80px;
+  }
+  .profile{
+
+    margin-top:-30%;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    
+  }
+  img.profile {
+    margin-left:20%;
+  }
+  h3{
+    font-family: 'Patrick Hand', cursive;
+    margin-top: 40px;
+    margin-left:1px ;
+    color: aliceblue;
+    font-size:20px;
+  }
+  .button{
+    margin-top:27% ;
+  margin-left: 27%;
+    
+    padding: 10px 25px;
+    
+    font-size: 16px;
+    
+  }
+  .icon li{
+    padding-right: 40px;
+    text-decoration: none;
+  }
+}
